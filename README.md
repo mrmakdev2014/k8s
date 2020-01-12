@@ -13,7 +13,7 @@ commands
 
 > kubectl scale –replicas=6 -f replicaset-definition.yml
 
-> kubectl create –f deployment-definition.yml
+> kubectl create –f deployment-definition.yml --record
 
 > kubectl get deployments
 
