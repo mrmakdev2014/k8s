@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service 
+metadata:
+        name: app300-service
+spec:
+        type: NodePort
+        ports:
+                - targetPort: 80
+                  port: 80
+                  nodePort: 30009
+        selector:
+                name: app300
+                type: frontapp
+
+                

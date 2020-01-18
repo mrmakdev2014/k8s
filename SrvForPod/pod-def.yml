@@ -4,6 +4,7 @@ metadata:
   name: app300-pod
   labels:
     name: app300
+    type: frontapp
 spec:
   containers:
   - name: app300-nginx-container
