@@ -1,8 +1,2 @@
 # kubernetes
-that repo contain all the examples and scripts for kubernetes
-
-commands
-
-> kubectl create –f replicaset-definition.yml
-
-
+this sample is about how to build Pod and service then call it using curl . 
